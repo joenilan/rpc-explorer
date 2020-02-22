@@ -80,7 +80,7 @@ function getNetworkHash(height) {
 }
 
 function getTotalAssetAddresses(req) {
-	var assetName = req.query.assetname;
+	var assetName = req.query.assetName;
 	return assetsCache.tryCache("getTotalAssetAddresses-"+assetName, 300000, () => {
 		return rpcApi.getTotalAssetAddresses(assetName);
 	});
