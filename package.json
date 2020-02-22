@@ -19,7 +19,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/npq7721/rpc-explorer.git"
+    "url": "git+https://github.com/joenilan/rpc-explorer.git"
   },
   "dependencies": {
     "async": "2.6.2",

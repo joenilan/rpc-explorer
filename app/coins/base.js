@@ -17,7 +17,7 @@ class CoinBase {
 			},
 			{
 				type:"native",
-				name:"mRTM",
+				name:"mMYNT",
 				multiplier:1000,
 				values:[`m${ticker.toLowerCase()}`],
 				decimalPlaces:5
@@ -31,7 +31,7 @@ class CoinBase {
 			},
 			{
 				type:"native",
-				name:"rap",
+				name:"mynt",
 				multiplier:100000000,
 				values:satUnits,
 				decimalPlaces:0
